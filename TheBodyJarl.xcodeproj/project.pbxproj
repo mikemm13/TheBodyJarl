@@ -21,6 +21,12 @@
 		493100AF196FC8490029416D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49310091196FC8490029416D /* UIKit.framework */; };
 		493100B7196FC8490029416D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 493100B5196FC8490029416D /* InfoPlist.strings */; };
 		493100B9196FC8490029416D /* TheBodyJarlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 493100B8196FC8490029416D /* TheBodyJarlTests.m */; };
+		493100C3196FC8FD0029416D /* chiqui0008.png in Resources */ = {isa = PBXBuildFile; fileRef = 493100C2196FC8FD0029416D /* chiqui0008.png */; };
+		493100C8196FD24E0029416D /* Ahorarl.wav in Resources */ = {isa = PBXBuildFile; fileRef = 493100C4196FD24E0029416D /* Ahorarl.wav */; };
+		493100C9196FD24E0029416D /* Ioputarl.wav in Resources */ = {isa = PBXBuildFile; fileRef = 493100C5196FD24E0029416D /* Ioputarl.wav */; };
+		493100CA196FD24E0029416D /* Iiihii.wav in Resources */ = {isa = PBXBuildFile; fileRef = 493100C6196FD24E0029416D /* Iiihii.wav */; };
+		493100CB196FD24E0029416D /* Lucas.wav in Resources */ = {isa = PBXBuildFile; fileRef = 493100C7196FD24E0029416D /* Lucas.wav */; };
+		493100D0196FD92C0029416D /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 493100CF196FD92C0029416D /* CoreBluetooth.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +59,12 @@
 		493100B4196FC8490029416D /* TheBodyJarlTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TheBodyJarlTests-Info.plist"; sourceTree = "<group>"; };
 		493100B6196FC8490029416D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		493100B8196FC8490029416D /* TheBodyJarlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TheBodyJarlTests.m; sourceTree = "<group>"; };
+		493100C2196FC8FD0029416D /* chiqui0008.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = chiqui0008.png; sourceTree = "<group>"; };
+		493100C4196FD24E0029416D /* Ahorarl.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Ahorarl.wav; sourceTree = "<group>"; };
+		493100C5196FD24E0029416D /* Ioputarl.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Ioputarl.wav; sourceTree = "<group>"; };
+		493100C6196FD24E0029416D /* Iiihii.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Iiihii.wav; sourceTree = "<group>"; };
+		493100C7196FD24E0029416D /* Lucas.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = Lucas.wav; sourceTree = "<group>"; };
+		493100CF196FD92C0029416D /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				493100D0196FD92C0029416D /* CoreBluetooth.framework in Frameworks */,
 				49310090196FC8490029416D /* CoreGraphics.framework in Frameworks */,
 				49310092196FC8490029416D /* UIKit.framework in Frameworks */,
 				4931008E196FC8490029416D /* Foundation.framework in Frameworks */,
@@ -101,6 +114,7 @@
 		4931008C196FC8490029416D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				493100CF196FD92C0029416D /* CoreBluetooth.framework */,
 				4931008D196FC8490029416D /* Foundation.framework */,
 				4931008F196FC8490029416D /* CoreGraphics.framework */,
 				49310091196FC8490029416D /* UIKit.framework */,
@@ -112,6 +126,11 @@
 		49310093196FC8490029416D /* TheBodyJarl */ = {
 			isa = PBXGroup;
 			children = (
+				493100C4196FD24E0029416D /* Ahorarl.wav */,
+				493100C5196FD24E0029416D /* Ioputarl.wav */,
+				493100C6196FD24E0029416D /* Iiihii.wav */,
+				493100C7196FD24E0029416D /* Lucas.wav */,
+				493100C2196FC8FD0029416D /* chiqui0008.png */,
 				4931009C196FC8490029416D /* AppDelegate.h */,
 				4931009D196FC8490029416D /* AppDelegate.m */,
 				4931009F196FC8490029416D /* Main.storyboard */,
@@ -228,7 +247,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				493100C9196FD24E0029416D /* Ioputarl.wav in Resources */,
+				493100CA196FD24E0029416D /* Iiihii.wav in Resources */,
+				493100C8196FD24E0029416D /* Ahorarl.wav in Resources */,
+				493100C3196FC8FD0029416D /* chiqui0008.png in Resources */,
 				493100A6196FC8490029416D /* Images.xcassets in Resources */,
+				493100CB196FD24E0029416D /* Lucas.wav in Resources */,
 				49310098196FC8490029416D /* InfoPlist.strings in Resources */,
 				493100A1196FC8490029416D /* Main.storyboard in Resources */,
 			);
